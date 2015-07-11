@@ -1,5 +1,6 @@
 import android.test.suitebuilder.annotation.SmallTest;
 
+import com.example.fud.mvpexample.MergeModel;
 import com.example.fud.mvpexample.MergeModelImpl;
 
 import org.junit.Assert;
@@ -10,7 +11,7 @@ import org.junit.Test;
  */
 @SmallTest
 public class ModelTest{
-    MergeModelImpl a = new MergeModelImpl();
+    MergeModel a = new MergeModelImpl();
     @Test
     public void mergeTest(){
         Assert.assertEquals(a.getMerge("123","456"),"123456");
@@ -18,6 +19,6 @@ public class ModelTest{
 
     @Test
     public void mergeTestFail(){
-        Assert.assertEquals(a.getMerge("123","abc"),"123aaa");
+        Assert.assertEquals(a.getMerge("123","abc"),"123123");
     }
 }
