@@ -7,3 +7,6 @@ Presenter裡面有宣告一個Model，Presenter接到View的Listener後會給Mod
 Model裡面全都是運算邏輯能方便做Unit Test
 
 而Unit Test 是[參考這篇教學](https://sites.google.com/a/android.com/tools/tech-docs/unit-testing-support)
+照著Setting up Android Studio的步驟就能完成設定
+![Unit Test圖片教學](https://raw.githubusercontent.com/lab403/MVP-UnitTest-Sample/master/Screenshot/teach.png)
+
